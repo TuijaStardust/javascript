@@ -1,0 +1,33 @@
+"We can talk to a server in order to send and receive data."
+
+User of an app (Web browser) sends a request to a server
+-> Server sends back response 
+
+Why do we want to use a server?
+- Communication: let users access the app (App needs to be able to listen to incoming requests and send back responses )
+- Trusted environment for running the code; The code can't be tampered/manipulated by the user of the application 
+
+JavaScript language
+    -> JS in the web browser environment
+    -> JS in a server environment: node.js 
+
+"Web browser does web browser'ish things, node.js does general computer'ish things" 
+
+NODE.JS
+=======  
+
+- Ability to create files and folders to computer hard-drive
+- Ability to listen to incoming network requests
+- etc...
+
+# Executing node in terminal; filename doesn't require .js ending
+node [filename]
+
+EXPRESS
+=======
+
+Pre-written JS code for Node environment that can be leveraged
+
+
+
+

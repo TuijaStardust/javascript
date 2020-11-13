@@ -26,8 +26,11 @@ node [filename]
 EXPRESS
 =======
 
-Pre-written JS code for Node environment that can be leveraged
+Designed for creating web-servers; Pre-written JS code for Node environment that can be leveraged
+Express provides functions and methods that are designed for creating web-servers
 
+# Installing Express (to project folder)
+npm install express 
 
-
+>> Downloads Express AND all the packages Express DEPENDS 
 

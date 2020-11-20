@@ -4,3 +4,12 @@ https://www.mongodb.com/
 
 CRUD
 ====
+Create
+Read
+Update
+Delete
+
+"Heart and soul of working with a database"
+
+# Package to give node.js ability to work with mongodb database
+npm install mongodb

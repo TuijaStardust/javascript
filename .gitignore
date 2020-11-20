@@ -1,2 +1,9 @@
+#ignore .gitignore
+.gitignore
+
 #Ignore Node modules
 node_modules
+
+#ignore server.js To Do App file as long as the password is visible...
+server.js
+

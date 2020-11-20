@@ -23,7 +23,13 @@ NODE.JS
 # Executing node in terminal; filename doesn't require .js ending
 node [filename]
 
-EXPRESS
+npm = node package manager
+
+# create package.json file for the project
+npm init -y
+
+
+EXPRESS (node package)
 =======
 
 Designed for creating web-servers; Pre-written JS code for Node environment that can be leveraged
@@ -34,3 +40,25 @@ npm install express
 
 >> Downloads Express AND all the packages Express DEPENDS 
 
+
+Refreshing node server automatically with "nodemon" package
+-----------------------------------------------------------
+npm install nodemon
+
+# open package.json file
+# -> Add a new script to "scripts" object
+    "watch": "nodemon [filename]",
+# run the script
+npm run watch
+
+*****
+# action attribute in <form> tag defines the url where the form sends it request to when the user submits the form
+# name attribute in <input> tag
+<form action="/create-item" method="POST">
+    <input name="item"> 
+
+
+
+
+
+    {useNewUrlParser: true, useUnifiedTopology: true}

@@ -57,8 +57,6 @@ npm run watch
 <form action="/create-item" method="POST">
     <input name="item"> 
 
-
-
-
-
-    {useNewUrlParser: true, useUnifiedTopology: true}
+***
+SECURITY
+npm install sanitize-html
